@@ -1,0 +1,4 @@
+{
+    "dbUri": "mongodb://localhost/templates_site",
+    "apiUrl": "http://hidden-journey-6801.herokuapp.com"
+}

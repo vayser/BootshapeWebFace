@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .row
+    - each theme in themes
+      .col-sm-6.col-md-4
+          .thumbnail
+            img(src="#{config.apiUrl}/themes/#{theme}/thumbnail.png", alt=theme)
+            .caption
+              h3 #{theme} label
+              p #{theme} description
+              p
+                a.btn.btn-primary(href='#', role='button') Button
+                a.btn.btn-default(href='#', role='button') Button
+
+  hr
+  footer
+    p © Company 2013
+
